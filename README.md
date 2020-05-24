@@ -8,7 +8,7 @@ observation. The agent chooses an action from an action space based on this obse
 give a reward based on how well the agent is doing at a given task. (lunar lander in our case)
 The agent has memories of what type of reward it got for doing a specific action during a certain observation of its environment.
 
-The agent will use a [greedy epsilon](https://medium.com/analytics-vidhya/the-epsilon-greedy-algorithm-for-reinforcement-learning-5fe6f96dc870) to choose the best action it sees fit for an observation based on its memories.
+The agent will use a [epsilon-greedy algorithm](https://medium.com/analytics-vidhya/the-epsilon-greedy-algorithm-for-reinforcement-learning-5fe6f96dc870) to choose the best action it sees fit for an observation based on its memories.
 
 An agents memories are 'wiped' or reset after each episode (epoch) however, the linear neural network remains the same. After 500 episodes 
 this lunar lander agent discovered a strategy for landing on the goal platform and can execute it reasonably effectively and consistently.
