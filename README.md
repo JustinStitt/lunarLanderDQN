@@ -25,3 +25,6 @@ this lunar lander agent discovered a strategy for landing on the goal platform a
 
 The 'goal' platform is always centered at (0,0)
 The geometry around the platform will change through each epoch or episode.
+
+
+[extremely helpful PyTorch video](https://www.youtube.com/watch?v=UlJzzLYgYoE)
