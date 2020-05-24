@@ -11,15 +11,15 @@ The agent will use a greedy epsilon to choose the best action it sees fit for an
 An agents memories are 'wiped' or reset after each episode (epoch) however, the linear neural network remains the same. After 500 episodes 
 this lunar lander agent discovered a strategy for landing on the goal platform and can execute it reasonably effectively and consistently.
 
-** Trained Lunar Lander Agent (500 epochs)**  
+**Trained Lunar Lander Agent (500 epochs)**  
 
 ![](visuals/trainedGIF.gif)
 
-** Untrained Lunar Lander Agent **  
+**Untrained Lunar Lander Agent**  
 
 ![](visuals/untrainedGIF.gif)
 
-** Notes **  
+**Notes**  
 
 The 'goal' platform is always centered at (0,0)
 The geometry around the platform will change through each epoch or episode.
