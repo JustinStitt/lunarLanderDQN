@@ -13,11 +13,11 @@ this lunar lander agent discovered a strategy for landing on the goal platform a
 
 ** Trained Lunar Lander Agent (500 epochs)**  
 
-![](visuals/untrainedGIF.gif)
+![](visuals/trainedGIF.gif)
 
 ** Untrained Lunar Lander Agent **  
 
-![](visuals/trainedGIF.gif)
+![](visuals/untrainedGIF.gif)
 
 ** Notes **  
 
