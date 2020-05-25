@@ -28,3 +28,5 @@ The geometry around the platform will change through each epoch or episode.
 
 
 [extremely helpful PyTorch video](https://www.youtube.com/watch?v=UlJzzLYgYoE)
+
+took about 25 minutes to train on GTX 1660 TI
