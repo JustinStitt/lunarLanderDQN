@@ -1,5 +1,5 @@
 # lunarLanderDQN
-A Deep Q-learning neural network is used to master cartpole ([OpenAi Gym](https://gym.openai.com/envs/LunarLander-v2/)
+A Deep Q-learning neural network is used to master Lunar Lander ([OpenAi Gym](https://gym.openai.com/envs/LunarLander-v2/)
 
 see another [DQN I made](https://github.com/JustinStitt/cartpoleDQN) with the Cartpole-v1 OpenAi Gym environment
 
@@ -107,7 +107,7 @@ Goes to show why gamma is used in RL models to discount future rewards.
 
 [OpenAi Gym](https://gym.openai.com/)
 
-[DQN w/ CNN](https://medium.com/analytics-vidhya/deep-q-network-with-convolutional-neural-networks-c761697897df) -- I did not use a CNN in cartpole, but nonetheless this resource helped tremendously.
+[DQN w/ CNN](https://medium.com/analytics-vidhya/deep-q-network-with-convolutional-neural-networks-c761697897df) -- I did not use a CNN in this Lunar Lander model, but nonetheless this resource helped tremendously.
 
 [RL Tutorial](https://www.toptal.com/deep-learning/pytorch-reinforcement-learning-tutorial)
 
