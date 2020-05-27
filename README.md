@@ -14,13 +14,13 @@ see another [DQN I made](https://github.com/JustinStitt/cartpoleDQN) with the Ca
 ![](visuals/trainedGIF.gif)
 
 [Deep Q-Learning](https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning) is a branch of [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) where Q-Values are
-generated based on a discounted future reward given an action and an environment observation.
+generated based on a [discounted future reward](#determining-reward) given an action and an environment observation.
 
 **Figure showing the feedback loop of a DQN**
 
 ![](visuals/RL_model.png)
 
-As you can see, the Agent performs an action and the environment promptly delivers a discounted future reward estimate as well as the next observation.
+As you can see, the Agent performs an action and the environment promptly delivers a [discounted future reward](#determining-reward) estimate as well as the next observation.
 
 # Learning 
 
