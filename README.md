@@ -1,5 +1,5 @@
 # lunarLanderDQN
-A Deep Q-learning neural network is used to master Lunar Lander ([OpenAi Gym](https://gym.openai.com/envs/LunarLander-v2/)
+A Deep Q-learning neural network is used to master Lunar Lander ([OpenAi Gym])(https://gym.openai.com/envs/LunarLander-v2/)
 
 see another [DQN I made](https://github.com/JustinStitt/cartpoleDQN) with the Cartpole-v1 OpenAi Gym environment
 
