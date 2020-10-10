@@ -1,4 +1,3 @@
-#following video: https://www.youtube.com/watch?v=UlJzzLYgYoE and taking notes
 import torch as T
 import torch.nn as nn
 import torch.nn.functional as F
@@ -90,7 +89,7 @@ class Agent(object):
             actions = self.Q_eval.forward(observation)
             action = T.argmax(actions).item()
         return action
-
+#hard-study this video for implementation help: https://www.youtube.com/watch?v=UlJzzLYgYoE 
     def learn(self):
         if self.mem_cntr > self.batch_size:#only learn when you have enough memories to fill batch_size
             self.Q_eval.optimizer.zero_grad()#zero out gradient (no exploding gradients)
@@ -131,3 +130,4 @@ class Agent(object):
     def load_checkpoint(self):
         print('...loading checkpoint...')
         self.Q_eval.load_state_dict(T.load('trained_model.pt'))
+        
